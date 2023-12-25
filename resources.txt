@@ -1,9 +1,11 @@
 folders : backend
 movies(frontend)
 
-installation:
+
+BACKEND - installation:
 npm i cors
 npm i express
 npm install nodemon
 npm install react-router-dom
 npm install mongodb
+
