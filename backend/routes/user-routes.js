@@ -1,7 +1,7 @@
 const express = require('express');
 const userRouter = express.Router;
-
-userRouter.get('/', getAllUsers);
+const {getAllUser} = require('../controllers/user-controller');
+userRouter.get('/', getAllUser);
 userRouter.post('/signup', signUp);
 userRouter.put('/:id', updateUser);
 userRouter.delete('/:id', deleteUser);
